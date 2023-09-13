@@ -1,0 +1,66 @@
+*box-sizing: border-box;
+
+#imageContainer {
+  width: 150px;
+  margin: 30px auto;
+}
+
+fieldset {
+  width:400px;
+  height:300px;
+  font-family: "Arial", "sans-serif";
+}
+
+
+body {
+  font-size:20px;
+}
+
+.left {
+  width: 50%;
+  display: inline-block;
+}
+
+.right {
+  float:right;
+  
+
+}
+
+.fname{
+  width:100%
+  display: inline-block;
+  border:0px solid red;
+  margin-top: 5px;
+}
+
+.name {
+  width:100%
+  display: inline-block;
+  margin: 5px;
+  border:0px solid red;
+  margin-top: 5px;
+}
+
+.birth {
+  width:100%;
+  border:0px solid red;
+  margin-top: 5px;
+}
+
+.gender {
+  border:0in solid red;
+  margin-top:15px;
+}
+
+.allergy {
+  width:100%;
+  border:0px solid red;
+  margin-top:30px;
+}
+
+footer {
+  width:100%;
+  position: bottom;
+  margin-top:30px;
+}

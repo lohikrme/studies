@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Harjoitus 1</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Rekisteröintilomake</legend>
+
+          <div class="fname">
+            <label class="left" for="fname" class="first">Etunimi:</label>
+            <input class="right" type="text" id="fname" name="fname">
+          </div> <!-- fname div ends-->
+
+          <div class="name">
+            <label class="left" for="name">Sukunimi:</label>
+            <input class="right" type="text" id="name" name="name">
+          </div> <!-- name div ends-->
+
+          <div class="birth">
+            <label class="left" for="birth">Syntymäaika:</label>
+            <input class="right" type="date" id="birth" name="birth">
+          </div> <!-- birth div ends-->
+
+          <div class="gender">
+            <label class="left" for="gender">Sukupuoli:</label>
+            <input class="right" type="radio" name="gender" id="male">
+            <label class="right" for="male">Mies</label>
+            <br>
+            <input class="right" type="radio" name="gender" id="female">
+            <label class="right" for="female">Nainen</label>
+            <br>
+            <input class="right" type="radio" name="gender" id="other">
+            <label class="right" for="other">Muu</label>
+          </div> <!-- gender div ends-->
+
+          <div class="allergy">
+            <label class="left" for="allergy">Ruoka-allergiat</label>
+            <input class="right" type="checkbox" name="allergy" id="tomaatti">
+            <label class="right" for="tomaatti">Tomaatti</label>
+            <br>
+            <input class="right" type="checkbox" name="allergy" id="maito">
+            <label class="right" for="maito">Maito</label>
+            <br>
+            <input class="right" type="checkbox" name="allergy" id="kala">
+            <label class="right" for="kala">Kala</label>
+          </div> <!-- allergy div ends-->
+
+        <footer>
+          <input type="submit" Value="Submit">
+          <input type="reset">
+        </footer>
+  
+      </fieldset>
+  
+    </form>
+  </body>
+  
+  </html>

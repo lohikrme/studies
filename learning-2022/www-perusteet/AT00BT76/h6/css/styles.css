@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(85, 163, 85);
+  font-size: 30px;
+  color: white;
+  margin: 0 0 0 10px;
+}
+
+input {
+  border: solid red 2px;
+}
+
+button {
+  border: solid red 2px;
+}
+
+#scale {
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  border: solid red 2px;
+}
+
+#arrow {
+  position: absolute;
+  top: 224px;
+  left: 10px;
+}

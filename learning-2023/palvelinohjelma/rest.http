@@ -1,0 +1,19 @@
+@baseurl = http://localhost:3000
+
+### Send GET request to the server
+GET http://localhost:3000/ HTTP/1.1
+
+### Same as above
+GET {{baseurl}}/ HTTP/1.1
+
+### Send GET request to different endpoint "/ping"
+GET {{baseurl}}/ping HTTP/1.1
+
+### Send POST request to '/data' endpoint
+POST {{baseurl}}/data HTTP/1.1
+Content-Type: application/json
+
+{
+    "password": "ldkgjsm",
+    "id": 123
+}
