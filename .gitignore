@@ -1,0 +1,37 @@
+
+# builder files
+*.apk
+*.ap_
+*.aab
+
+# VM files
+*.dex
+
+# java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# local configurations
+local.properties
+
+# windows-database
+Thumbs.database
+
+# OSX-files
+.DS_Store
+
+# Android Studio files
+*.iml
+.idea
+.gradle
+build/
+.navigation
+captures/
+output.json
+
+# NDK
+obj/
+.externalNativeBuild
