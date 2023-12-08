@@ -1,0 +1,42 @@
+header {
+    min-height: 100px;
+    max-height: 15vh;
+}
+
+body {
+    min-height: 1600px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(31, 127, 85), rgb(50, 127, 31));
+    padding-left: 2vw;
+    font-size: 1.2em;
+}
+
+.form1 {
+    max-width: 500px;
+    margin-top: 2vh;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    width: 10vw;
+    min-width: 140px;
+    display: inline-block;
+}
+
+.writingArea {
+    width: 10vw;
+    min-width: 100px;
+}
+
+.sendButton {
+    display: inline-block;
+    width: 7wv;
+    min-width: 70px;
+    margin-left: 1vw;
+}
+
+.emptyButton {
+    width: 7wv;
+    min-width: 70px;
+    margin-left: min(4vw, 100px);
+}
