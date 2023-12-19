@@ -1,0 +1,5 @@
+1;virveli;100
+2;mato-onki;20
+3;siima;10
+4;koho;5
+5;koukku;1
