@@ -1,0 +1,2 @@
+12345##Eka Asiakas##Jokutie 1
+54321##Toka Asiakas##Toinentie 2
